@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Program Engagement" max_length="40" name="x_293449_csassuran_program_engagement" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Creation" max_length="100" name="u_creation" type="icon"/>
+        <element attributes="edge_encryption_enabled=true" label="Creation comments" max_length="384" name="u_creation_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" mandatory="true" max_length="60" name="u_engagement_title" type="string"/>
+        <element label="Program" mandatory="true" max_length="32" name="u_program" reference="x_293449_csassuran_technologyprogram" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Purpose" mandatory="true" max_length="512" name="u_purpose" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="1" name="u_string_6" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Update comments" max_length="1024" name="u_update_comments" type="string"/>
+        <index name="index">
+            <element name="u_program"/>
+        </index>
+    </element>
+</database>

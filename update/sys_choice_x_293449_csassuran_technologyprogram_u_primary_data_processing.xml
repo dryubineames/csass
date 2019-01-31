@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_primary_data_processing" table="x_293449_csassuran_technologyprogram" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_primary_data_processing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3effeebddb132300aaf6e1bb4b961982</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <value>financial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_primary_data_processing</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>None</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faffeebddb132300aaf6e1bb4b961981</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <value>none</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_primary_data_processing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regulatory reporting</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baffeebddb132300aaf6e1bb4b961983</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <value>regulatory reporting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_primary_data_processing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management decision making</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3affeebddb132300aaf6e1bb4b961984</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <value>management decision making</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_primary_data_processing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 00:50:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfb06682db532300aaf6e1bb4b9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_primary_data_processing</element>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_id>f6ffeebddb132300aaf6e1bb4b961982</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_primary_data_processing</sys_name>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_choice_x_293449_csassuran_technologyprogram_u_primary_data_processing</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 07:18:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

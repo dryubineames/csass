@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" label="Technology Program" max_length="40" name="x_293449_csassuran_technologyprogram" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assessed assurance level" max_length="40" name="u_assessed_assurance" type="string">
+            <choice>
+                <element label="High" sequence="0" value="high"/>
+                <element label="Medium" sequence="1" value="medium"/>
+                <element label="Low" sequence="2" value="low"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Auto assess algorithm" max_length="40" name="u_auto_algorithm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Auto assessed assurance level" max_length="40" name="u_auto_assurance" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Key business or technology objectives of this programme" max_length="1024" name="u_business_objs" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_11" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Any 3rd party cloud services/suppliers" max_length="40" name="u_cloud_provider" type="string">
+            <choice>
+                <element label="IaaS" sequence="0" value="iaas"/>
+                <element label="PaaS" sequence="1" value="paas"/>
+                <element label="SaaS" sequence="2" value="saas"/>
+                <element label="Hybrid" sequence="3" value="hybrid"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are there changes to critcal systems" max_length="40" name="u_critical_systems" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="Not sure" sequence="2" value="not sure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Details of systems and changes" mandatory="true" max_length="1024" name="u_critical_systems_impact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Program name" mandatory="true" max_length="40" name="u_cs_context" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data classification" max_length="40" name="u_data_classification" type="string">
+            <choice>
+                <element label="Confidential" sequence="0" value="confidential"/>
+                <element label="Internal" sequence="1" value="internal"/>
+                <element label="Restricted" sequence="2" value="restricted"/>
+                <element label="Unrestricted" sequence="3" value="unrestricted"/>
+            </choice>
+        </element>
+        <element label="Engagement lead" max_length="32" name="u_engagement_lead" reference="x_293449_csassuran_engagement_lead" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_4" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Impact on other applications" max_length="1024" name="u_impact_other_apps" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="enhanced" label="New, upgrade or decommision" mandatory="true" max_length="40" name="u_new_upgrade_decomm" type="string">
+            <choice>
+                <element label="New" sequence="0" value="new"/>
+                <element label="Enhanced" sequence="1" value="enhanced"/>
+                <element label="Decommision" sequence="2" value="decommision"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="New or upgrade details" max_length="1024" name="u_new_upgrade_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Third parties involved" max_length="40" name="u_parties_involved" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="other" label="Source of data processing for" mandatory="true" max_length="40" name="u_primary_data_processing" type="string">
+            <choice>
+                <element label="Financial" sequence="0" value="financial"/>
+                <element label="Regulatory reporting" sequence="1" value="regulatory reporting"/>
+                <element label="Management decision making" sequence="2" value="management decision making"/>
+                <element label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Project sponsor" max_length="60" name="u_project_sponsor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Any services introduced NOT under Telstra technology team control" max_length="40" name="u_service_not_under_t_cntrl" type="string">
+            <choice>
+                <element label="No" sequence="0" value="no"/>
+                <element label="Yes" sequence="1" value="yes"/>
+                <element label="Easier question" sequence="2" value="easier question"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sponsor business unit" mandatory="true" max_length="40" name="u_sponsor_business_unit" type="string">
+            <choice>
+                <element label="Consumer and small business" sequence="0" value="consumer and small business"/>
+                <element label="Corporate affairs and legal" sequence="1" value="corporate affairs and legal"/>
+                <element label="InfraCo" sequence="2" value="infraco"/>
+                <element label="Global business services" sequence="3" value="global business services"/>
+                <element label="Human resources and transformation" sequence="4" value="human resources and transformation"/>
+                <element label="Networkds and I.T" sequence="5" value="networkds and i.t"/>
+                <element label="Product and technology" sequence="6" value="product and technology"/>
+                <element label="Strategy and finance" sequence="7" value="strategy and finance"/>
+                <element label="Enterprise" sequence="8" value="enterprise"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="3rd Party legal name" max_length="40" name="u_third_party_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="3rd party services" max_length="384" name="u_third_party_services" type="string"/>
+        <index name="index">
+            <element name="u_engagement_lead"/>
+        </index>
+    </element>
+</database>

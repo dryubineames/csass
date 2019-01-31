@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_primary_data_processing" label="Source of data processing for" language="en" table="x_293449_csassuran_technologyprogram">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_primary_data_processing</element>
+            <help/>
+            <hint/>
+            <label>Source of data processing for</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <plural>Source of data processing for</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 07:18:27</sys_created_on>
+            <sys_id>b2ffeebddb132300aaf6e1bb4b961956</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Source of data processing for</sys_name>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_documentation_x_293449_csassuran_technologyprogram_u_primary_data_processing_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 00:50:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

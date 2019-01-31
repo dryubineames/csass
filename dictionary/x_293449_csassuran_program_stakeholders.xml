@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Program Stakeholders" max_length="40" name="x_293449_csassuran_program_stakeholders" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Program" mandatory="true" max_length="32" name="u_program" reference="x_293449_csassuran_technologyprogram" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Role" mandatory="true" max_length="40" name="u_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stakeholder" mandatory="true" max_length="40" name="u_stakeholder" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Concerns and priorities" max_length="512" name="u_stakeholder_concerns" type="string"/>
+        <index name="index">
+            <element name="u_program"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_parties_involved" table="x_293449_csassuran_technologyprogram" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_parties_involved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 06:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e3de78adbd32300aaf6e1bb4b9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 06:24:30</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_parties_involved</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 06:24:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e3de78adbd32300aaf6e1bb4b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 06:24:30</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_parties_involved</element>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 06:24:30</sys_created_on>
+            <sys_id>5a3de78adbd32300aaf6e1bb4b9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_parties_involved</sys_name>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_choice_x_293449_csassuran_technologyprogram_u_parties_involved</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 06:24:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

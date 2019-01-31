@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="d28945addb932300aaf6e1bb4b9619fd" sys_domain="global" table="x_293449_csassuran_technologyprogram" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cs_context</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>b241afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_auto_assurance</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>3641afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_assessed_assurance</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>b641afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>3a41afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>ba41afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_auto_algorithm</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:32:22</sys_created_on>
+            <sys_id>3e41afc2dbd32300aaf6e1bb4b9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_293449_csassuran_technologyprogram" sys_domain="global" view="Default view">d28945addb932300aaf6e1bb4b9619fd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:32:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-29 05:12:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d28945addb932300aaf6e1bb4b9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_293449_csassuran_technologyprogram</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_ui_section_d28945addb932300aaf6e1bb4b9619fd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-29 05:12:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

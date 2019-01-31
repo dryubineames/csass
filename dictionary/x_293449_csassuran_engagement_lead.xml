@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Engagement lead" max_length="40" name="x_293449_csassuran_engagement_lead" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Completed" max_length="40" name="u_completed" type="glide_date"/>
+        <element dependent="u_cs_program" dependent_on_field="u_cs_program" label="Program" mandatory="true" max_length="32" name="u_cs_program" reference="x_293449_csassuran_technologyprogram" type="reference" use_dependent_field="true"/>
+        <element label="Engagement lead" mandatory="true" max_length="32" name="u_engagement_lead" reference="sys_user" type="reference"/>
+        <element label="Lead from" mandatory="true" max_length="40" name="u_lead_from" type="glide_date"/>
+        <index name="index">
+            <element name="u_cs_program"/>
+        </index>
+        <index name="index2">
+            <element name="u_engagement_lead"/>
+        </index>
+    </element>
+</database>

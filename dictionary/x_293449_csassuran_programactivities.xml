@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Program Activities" max_length="40" name="x_293449_csassuran_programactivities" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action required" mandatory="true" max_length="80" name="u_action_reqd" type="string"/>
+        <element label="Program" max_length="32" name="u_program_ref" reference="x_293449_csassuran_technologyprogram" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Progress notes" max_length="2048" name="u_progress_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rationale" mandatory="true" max_length="1024" name="u_rationale" type="string"/>
+        <element label="Required by" max_length="40" name="u_required_by" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="uncommunicated" display="true" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Uncommunicated" sequence="0" value="uncommunicated"/>
+                <element label="Advice provided" sequence="1" value="advice provided"/>
+                <element label="Advice acknowledged" sequence="2" value="advice acknowledged"/>
+                <element label="In progress" sequence="3" value="in progress"/>
+                <element label="In business acceptance" sequence="4" value="in business acceptance"/>
+                <element label="Partially resolved (more action required)" sequence="5" value="partially resolved (more action required)"/>
+                <element label="Partially resolved (acceptable)" sequence="6" value="partially resolved (acceptable)"/>
+                <element label="Partially resolved (business acceptance)" sequence="7" value="partially resolved (business acceptance)"/>
+                <element label="Resolved" sequence="8" value="resolved"/>
+                <element label="Other" sequence="9" value="other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_program_ref"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_293449_csassuran_technologyprogram" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Technology Program - Default view" name="x_293449_csassuran_technologyprogram" related_list="NULL" sys_domain="global" view="Default view">94d2a706dbd32300aaf6e1bb4b961998</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_293449_csassuran_engagement_lead.u_cs_program</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:39:02</sys_created_on>
+            <sys_id>5cd2a706dbd32300aaf6e1bb4b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:39:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Technology Program - Default view" name="x_293449_csassuran_technologyprogram" related_list="NULL" sys_domain="global" view="Default view">94d2a706dbd32300aaf6e1bb4b961998</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_293449_csassuran_programactivities.u_program_ref</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:39:02</sys_created_on>
+            <sys_id>50d2a706dbd32300aaf6e1bb4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:39:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Technology Program - Default view" name="x_293449_csassuran_technologyprogram" related_list="NULL" sys_domain="global" view="Default view">94d2a706dbd32300aaf6e1bb4b961998</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_293449_csassuran_program_engagement.u_program</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:39:02</sys_created_on>
+            <sys_id>54d2a706dbd32300aaf6e1bb4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:39:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Technology Program - Default view" name="x_293449_csassuran_technologyprogram" related_list="NULL" sys_domain="global" view="Default view">94d2a706dbd32300aaf6e1bb4b961998</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_293449_csassuran_program_stakeholders.u_program</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:39:02</sys_created_on>
+            <sys_id>58d2a706dbd32300aaf6e1bb4b961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:39:02</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Technology Program - Default view</calculated_name>
+            <filter/>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-31 05:39:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94d2a706dbd32300aaf6e1bb4b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Technology Program - Default view</sys_name>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_ui_related_x_293449_csassuran_technologyprogram_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-31 05:39:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

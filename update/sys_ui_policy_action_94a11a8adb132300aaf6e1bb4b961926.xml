@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_new_upgrade_details</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-30 23:45:19</sys_created_on>
+        <sys_id>94a11a8adb132300aaf6e1bb4b961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_new_upgrade_details</sys_name>
+        <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_94a11a8adb132300aaf6e1bb4b961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-30 23:47:17</sys_updated_on>
+        <table>x_293449_csassuran_technologyprogram</table>
+        <ui_policy display_value="Enable the new or upgrade details text box if new or updated are selected">8a7f464adb132300aaf6e1bb4b9619a4</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

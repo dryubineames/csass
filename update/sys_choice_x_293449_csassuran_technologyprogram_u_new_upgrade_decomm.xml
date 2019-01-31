@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_new_upgrade_decomm" table="x_293449_csassuran_technologyprogram" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_new_upgrade_decomm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 06:45:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de686eb9db132300aaf6e1bb4b9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 06:45:23</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_new_upgrade_decomm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enhanced</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 06:45:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12686eb9db132300aaf6e1bb4b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 06:45:23</sys_updated_on>
+            <value>enhanced</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_new_upgrade_decomm</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Decommision</label>
+            <language>en</language>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 06:45:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e686eb9db132300aaf6e1bb4b9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 06:45:23</sys_updated_on>
+            <value>decommision</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_new_upgrade_decomm</element>
+            <name>x_293449_csassuran_technologyprogram</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-30 06:45:23</sys_created_on>
+            <sys_id>da686eb9db132300aaf6e1bb4b9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_new_upgrade_decomm</sys_name>
+            <sys_package display_value="CSAssuranceMgt" source="x_293449_csassuran">6259c16ddb932300aaf6e1bb4b9619c6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSAssuranceMgt">6259c16ddb932300aaf6e1bb4b9619c6</sys_scope>
+            <sys_update_name>sys_choice_x_293449_csassuran_technologyprogram_u_new_upgrade_decomm</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-30 06:45:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
